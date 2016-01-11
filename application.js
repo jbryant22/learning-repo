@@ -1,3 +1,5 @@
+// Main application entry point
+
 var mbaasApi = require('fh-mbaas-api');
 var express = require('express');
 var mbaasExpress = mbaasApi.mbaasExpress();
