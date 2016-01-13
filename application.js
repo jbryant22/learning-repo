@@ -5,6 +5,8 @@ var express = require('express');
 var mbaasExpress = mbaasApi.mbaasExpress();
 var cors = require('cors');
 
+console.log('Is maith liom TKE');
+
 // list the endpoints which you want to make securable here
 var securableEndpoints;
 // fhlint-begin: securable-endpoints
